@@ -1,0 +1,111 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background-color: #fdf8f8;
+  margin: 0;
+  color: #555;
+}
+
+/* ヘッダー */
+header {
+  background-color: #f7dede;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* メイン全体 */
+.main-container {
+  display: flex;
+  padding: 20px;
+  background-color: #f3e5d8;
+}
+
+/* メイン */
+main {
+  width: 70%;
+}
+
+article {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* サイド */
+aside {
+  width: 30%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside nav, .shop-banner {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/*バナー*/
+.shop-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+article img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.categoryNav ul,
+.recentNav ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.categoryNav li,
+.recentNav li {
+  margin-bottom: 8px;
+}
+.categoryNav,
+.recentNav {
+  text-align: center;
+}
+nav a:hover {
+  text-decoration: underline;
+}
